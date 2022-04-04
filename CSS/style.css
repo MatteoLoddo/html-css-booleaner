@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 600;
 
 }
 
@@ -21,12 +24,49 @@ header{
 
 }
 
+
 figure{
     width: 100%;
     margin-left: 2px;
-
 }
+
 
 .Unorder-list{
     text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+th{
+    text-align: left;
+    width: 500px;
+    background-color: blue;
+}
+
+.tr-color{
+    background-color: aquamarine;
+}
+
+.ADfooter{
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px ;
+    margin-left: 3px;
+}
+.AD-Pc{
+    background-image: url("../img/monitor.jpg");  
+}
+
+.AD-Graph{
+    background-image: url("../img/graph.jpg");  
+}
+
+.Text-AD{
+    margin: 10px;
 }
